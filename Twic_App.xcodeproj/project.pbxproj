@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D084E1232C07A699D2A4996 /* Pods_Twic_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8830F64D691A1B1D44934 /* Pods_Twic_AppTests.framework */; };
+		56B4B8B00116D745FF248DDE /* Pods_Twic_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36080D4FA83D57B5C44BFA24 /* Pods_Twic_App.framework */; };
+		684EFB6BC96DF539810A14A1 /* Pods_Twic_App_Twic_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4B83E584868BF390E9AC09 /* Pods_Twic_App_Twic_AppUITests.framework */; };
+		ED4115F1237AD72C006D946B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4115F0237AD72C006D946B /* GoogleService-Info.plist */; };
+		ED4115F3237AD736006D946B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4115F2237AD736006D946B /* GoogleService-Info.plist */; };
+		ED4115F5237AD741006D946B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4115F4237AD741006D946B /* GoogleService-Info.plist */; };
+		EDC7481723757AE6006D0521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7481623757AE6006D0521 /* AppDelegate.swift */; };
+		EDC7481923757AE6006D0521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7481823757AE6006D0521 /* SceneDelegate.swift */; };
+		EDC7481D23757AEC006D0521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC7481C23757AEC006D0521 /* Assets.xcassets */; };
+		EDC7482023757AEC006D0521 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC7481F23757AEC006D0521 /* Preview Assets.xcassets */; };
+		EDC7482323757AEC006D0521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC7482123757AEC006D0521 /* LaunchScreen.storyboard */; };
+		EDC7482E23757AED006D0521 /* Twic_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7482D23757AED006D0521 /* Twic_AppTests.swift */; };
+		EDC7483923757AED006D0521 /* Twic_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7483823757AED006D0521 /* Twic_AppUITests.swift */; };
+		EDC7485C23757DCC006D0521 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7485723757DCC006D0521 /* ImagePickerView.swift */; };
+		EDC7485D23757DCC006D0521 /* SocialPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7485823757DCC006D0521 /* SocialPlatform.swift */; };
+		EDC7485E23757DCC006D0521 /* TwitterLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7485923757DCC006D0521 /* TwitterLoginButton.swift */; };
+		EDC7486123759418006D0521 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7486023759418006D0521 /* ContentView.swift */; };
+		EDC74863237594B1006D0521 /* SocialFeedSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC74862237594B1006D0521 /* SocialFeedSharingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC7482A23757AED006D0521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC7480B23757AE6006D0521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC7481223757AE6006D0521;
+			remoteInfo = Twic_App;
+		};
+		EDC7483523757AED006D0521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC7480B23757AE6006D0521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC7481223757AE6006D0521;
+			remoteInfo = Twic_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1334704EC11DCFA1495854 /* Pods-Twic_App-Twic_AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twic_App-Twic_AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36080D4FA83D57B5C44BFA24 /* Pods_Twic_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twic_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C8830F64D691A1B1D44934 /* Pods_Twic_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twic_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A708498C264C6659EF1515 /* Pods-Twic_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twic_App.debug.xcconfig"; path = "Target Support Files/Pods-Twic_App/Pods-Twic_App.debug.xcconfig"; sourceTree = "<group>"; };
+		73CD193138A3956EEDDCAFC9 /* Pods-Twic_App-Twic_AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twic_App-Twic_AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B4B83E584868BF390E9AC09 /* Pods_Twic_App_Twic_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twic_App_Twic_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8727535A28DDA2D2CF0DE31 /* Pods-Twic_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twic_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Twic_AppTests/Pods-Twic_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C648628BB3B1551F1ABD80 /* Pods-Twic_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twic_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Twic_AppTests/Pods-Twic_AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED4115F0237AD72C006D946B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		ED4115F2237AD736006D946B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		ED4115F4237AD741006D946B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EDC7481323757AE6006D0521 /* Twic_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twic_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC7481623757AE6006D0521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC7481823757AE6006D0521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC7481C23757AEC006D0521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC7481F23757AEC006D0521 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDC7482223757AEC006D0521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC7482423757AEC006D0521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC7482923757AED006D0521 /* Twic_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twic_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC7482D23757AED006D0521 /* Twic_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twic_AppTests.swift; sourceTree = "<group>"; };
+		EDC7482F23757AED006D0521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC7483423757AED006D0521 /* Twic_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twic_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC7483823757AED006D0521 /* Twic_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twic_AppUITests.swift; sourceTree = "<group>"; };
+		EDC7483A23757AED006D0521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC7485723757DCC006D0521 /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		EDC7485823757DCC006D0521 /* SocialPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialPlatform.swift; sourceTree = "<group>"; };
+		EDC7485923757DCC006D0521 /* TwitterLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterLoginButton.swift; sourceTree = "<group>"; };
+		EDC7486023759418006D0521 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDC74862237594B1006D0521 /* SocialFeedSharingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialFeedSharingView.swift; sourceTree = "<group>"; };
+		FDABC38E9DD497B262D7D721 /* Pods-Twic_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twic_App.release.xcconfig"; path = "Target Support Files/Pods-Twic_App/Pods-Twic_App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC7481023757AE6006D0521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B4B8B00116D745FF248DDE /* Pods_Twic_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC7482623757AED006D0521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D084E1232C07A699D2A4996 /* Pods_Twic_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC7483123757AED006D0521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684EFB6BC96DF539810A14A1 /* Pods_Twic_App_Twic_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A792DA0C1D218EB34CD16C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68A708498C264C6659EF1515 /* Pods-Twic_App.debug.xcconfig */,
+				FDABC38E9DD497B262D7D721 /* Pods-Twic_App.release.xcconfig */,
+				0C1334704EC11DCFA1495854 /* Pods-Twic_App-Twic_AppUITests.debug.xcconfig */,
+				73CD193138A3956EEDDCAFC9 /* Pods-Twic_App-Twic_AppUITests.release.xcconfig */,
+				A8727535A28DDA2D2CF0DE31 /* Pods-Twic_AppTests.debug.xcconfig */,
+				C7C648628BB3B1551F1ABD80 /* Pods-Twic_AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37EFE2ECA64CFC46B5BC59EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36080D4FA83D57B5C44BFA24 /* Pods_Twic_App.framework */,
+				8B4B83E584868BF390E9AC09 /* Pods_Twic_App_Twic_AppUITests.framework */,
+				42C8830F64D691A1B1D44934 /* Pods_Twic_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC7480A23757AE6006D0521 = {
+			isa = PBXGroup;
+			children = (
+				EDC7481523757AE6006D0521 /* Twic_App */,
+				EDC7482C23757AED006D0521 /* Twic_AppTests */,
+				EDC7483723757AED006D0521 /* Twic_AppUITests */,
+				EDC7481423757AE6006D0521 /* Products */,
+				17A792DA0C1D218EB34CD16C /* Pods */,
+				37EFE2ECA64CFC46B5BC59EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC7481423757AE6006D0521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC7481323757AE6006D0521 /* Twic_App.app */,
+				EDC7482923757AED006D0521 /* Twic_AppTests.xctest */,
+				EDC7483423757AED006D0521 /* Twic_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC7481523757AE6006D0521 /* Twic_App */ = {
+			isa = PBXGroup;
+			children = (
+				ED4115F0237AD72C006D946B /* GoogleService-Info.plist */,
+				EDC7481623757AE6006D0521 /* AppDelegate.swift */,
+				EDC7481823757AE6006D0521 /* SceneDelegate.swift */,
+				EDC7486023759418006D0521 /* ContentView.swift */,
+				EDC7485723757DCC006D0521 /* ImagePickerView.swift */,
+				EDC74862237594B1006D0521 /* SocialFeedSharingView.swift */,
+				EDC7485923757DCC006D0521 /* TwitterLoginButton.swift */,
+				EDC7485823757DCC006D0521 /* SocialPlatform.swift */,
+				EDC7481C23757AEC006D0521 /* Assets.xcassets */,
+				EDC7482123757AEC006D0521 /* LaunchScreen.storyboard */,
+				EDC7482423757AEC006D0521 /* Info.plist */,
+				EDC7481E23757AEC006D0521 /* Preview Content */,
+			);
+			path = Twic_App;
+			sourceTree = "<group>";
+		};
+		EDC7481E23757AEC006D0521 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDC7481F23757AEC006D0521 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDC7482C23757AED006D0521 /* Twic_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4115F2237AD736006D946B /* GoogleService-Info.plist */,
+				EDC7482D23757AED006D0521 /* Twic_AppTests.swift */,
+				EDC7482F23757AED006D0521 /* Info.plist */,
+			);
+			path = Twic_AppTests;
+			sourceTree = "<group>";
+		};
+		EDC7483723757AED006D0521 /* Twic_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4115F4237AD741006D946B /* GoogleService-Info.plist */,
+				EDC7483823757AED006D0521 /* Twic_AppUITests.swift */,
+				EDC7483A23757AED006D0521 /* Info.plist */,
+			);
+			path = Twic_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC7481223757AE6006D0521 /* Twic_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC7483D23757AED006D0521 /* Build configuration list for PBXNativeTarget "Twic_App" */;
+			buildPhases = (
+				32482BF0E58D19C03884C242 /* [CP] Check Pods Manifest.lock */,
+				EDC7480F23757AE6006D0521 /* Sources */,
+				EDC7481023757AE6006D0521 /* Frameworks */,
+				EDC7481123757AE6006D0521 /* Resources */,
+				04663D374F50D693D36E0866 /* [CP] Embed Pods Frameworks */,
+				2F3BC6668985F3C5EF99126E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twic_App;
+			productName = Twic_App;
+			productReference = EDC7481323757AE6006D0521 /* Twic_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC7482823757AED006D0521 /* Twic_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC7484023757AED006D0521 /* Build configuration list for PBXNativeTarget "Twic_AppTests" */;
+			buildPhases = (
+				F56C1A482C1751AA185C4C4F /* [CP] Check Pods Manifest.lock */,
+				EDC7482523757AED006D0521 /* Sources */,
+				EDC7482623757AED006D0521 /* Frameworks */,
+				EDC7482723757AED006D0521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC7482B23757AED006D0521 /* PBXTargetDependency */,
+			);
+			name = Twic_AppTests;
+			productName = Twic_AppTests;
+			productReference = EDC7482923757AED006D0521 /* Twic_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC7483323757AED006D0521 /* Twic_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC7484323757AED006D0521 /* Build configuration list for PBXNativeTarget "Twic_AppUITests" */;
+			buildPhases = (
+				EB4EADC027CA4B9D5859A283 /* [CP] Check Pods Manifest.lock */,
+				EDC7483023757AED006D0521 /* Sources */,
+				EDC7483123757AED006D0521 /* Frameworks */,
+				EDC7483223757AED006D0521 /* Resources */,
+				DC6CD367639812AAFD9C26D7 /* [CP] Embed Pods Frameworks */,
+				D4F2CAD808F3AA6B8F9D47FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC7483623757AED006D0521 /* PBXTargetDependency */,
+			);
+			name = Twic_AppUITests;
+			productName = Twic_AppUITests;
+			productReference = EDC7483423757AED006D0521 /* Twic_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC7480B23757AE6006D0521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Hot Cocoa Software";
+				TargetAttributes = {
+					EDC7481223757AE6006D0521 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EDC7482823757AED006D0521 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EDC7481223757AE6006D0521;
+					};
+					EDC7483323757AED006D0521 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EDC7481223757AE6006D0521;
+					};
+				};
+			};
+			buildConfigurationList = EDC7480E23757AE6006D0521 /* Build configuration list for PBXProject "Twic_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC7480A23757AE6006D0521;
+			productRefGroup = EDC7481423757AE6006D0521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC7481223757AE6006D0521 /* Twic_App */,
+				EDC7482823757AED006D0521 /* Twic_AppTests */,
+				EDC7483323757AED006D0521 /* Twic_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC7481123757AE6006D0521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC7482323757AEC006D0521 /* LaunchScreen.storyboard in Resources */,
+				ED4115F1237AD72C006D946B /* GoogleService-Info.plist in Resources */,
+				EDC7482023757AEC006D0521 /* Preview Assets.xcassets in Resources */,
+				EDC7481D23757AEC006D0521 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC7482723757AED006D0521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4115F3237AD736006D946B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC7483223757AED006D0521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4115F5237AD741006D946B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04663D374F50D693D36E0866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App/Pods-Twic_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App/Pods-Twic_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twic_App/Pods-Twic_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3BC6668985F3C5EF99126E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App/Pods-Twic_App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App/Pods-Twic_App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twic_App/Pods-Twic_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32482BF0E58D19C03884C242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twic_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F2CAD808F3AA6B8F9D47FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6CD367639812AAFD9C26D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twic_App-Twic_AppUITests/Pods-Twic_App-Twic_AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB4EADC027CA4B9D5859A283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twic_App-Twic_AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56C1A482C1751AA185C4C4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twic_AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC7480F23757AE6006D0521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC7485D23757DCC006D0521 /* SocialPlatform.swift in Sources */,
+				EDC7485C23757DCC006D0521 /* ImagePickerView.swift in Sources */,
+				EDC7486123759418006D0521 /* ContentView.swift in Sources */,
+				EDC74863237594B1006D0521 /* SocialFeedSharingView.swift in Sources */,
+				EDC7481723757AE6006D0521 /* AppDelegate.swift in Sources */,
+				EDC7481923757AE6006D0521 /* SceneDelegate.swift in Sources */,
+				EDC7485E23757DCC006D0521 /* TwitterLoginButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC7482523757AED006D0521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC7482E23757AED006D0521 /* Twic_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC7483023757AED006D0521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC7483923757AED006D0521 /* Twic_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC7482B23757AED006D0521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC7481223757AE6006D0521 /* Twic_App */;
+			targetProxy = EDC7482A23757AED006D0521 /* PBXContainerItemProxy */;
+		};
+		EDC7483623757AED006D0521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC7481223757AE6006D0521 /* Twic_App */;
+			targetProxy = EDC7483523757AED006D0521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC7482123757AEC006D0521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC7482223757AEC006D0521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC7483B23757AED006D0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC7483C23757AED006D0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC7483E23757AED006D0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A708498C264C6659EF1515 /* Pods-Twic_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Twic_App/Preview Content\"";
+				DEVELOPMENT_TEAM = SSD8A77M73;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Twic_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcs.Twic-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC7483F23757AED006D0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDABC38E9DD497B262D7D721 /* Pods-Twic_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Twic_App/Preview Content\"";
+				DEVELOPMENT_TEAM = SSD8A77M73;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Twic_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcs.Twic-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC7484123757AED006D0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8727535A28DDA2D2CF0DE31 /* Pods-Twic_AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSD8A77M73;
+				INFOPLIST_FILE = Twic_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcs.Twic-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twic_App.app/Twic_App";
+			};
+			name = Debug;
+		};
+		EDC7484223757AED006D0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C648628BB3B1551F1ABD80 /* Pods-Twic_AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSD8A77M73;
+				INFOPLIST_FILE = Twic_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcs.Twic-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twic_App.app/Twic_App";
+			};
+			name = Release;
+		};
+		EDC7484423757AED006D0521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1334704EC11DCFA1495854 /* Pods-Twic_App-Twic_AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSD8A77M73;
+				INFOPLIST_FILE = Twic_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcs.Twic-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twic_App;
+			};
+			name = Debug;
+		};
+		EDC7484523757AED006D0521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CD193138A3956EEDDCAFC9 /* Pods-Twic_App-Twic_AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSD8A77M73;
+				INFOPLIST_FILE = Twic_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hcs.Twic-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twic_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC7480E23757AE6006D0521 /* Build configuration list for PBXProject "Twic_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC7483B23757AED006D0521 /* Debug */,
+				EDC7483C23757AED006D0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC7483D23757AED006D0521 /* Build configuration list for PBXNativeTarget "Twic_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC7483E23757AED006D0521 /* Debug */,
+				EDC7483F23757AED006D0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC7484023757AED006D0521 /* Build configuration list for PBXNativeTarget "Twic_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC7484123757AED006D0521 /* Debug */,
+				EDC7484223757AED006D0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC7484323757AED006D0521 /* Build configuration list for PBXNativeTarget "Twic_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC7484423757AED006D0521 /* Debug */,
+				EDC7484523757AED006D0521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC7480B23757AE6006D0521 /* Project object */;
+}

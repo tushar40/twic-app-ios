@@ -1,0 +1,6 @@
+framework module Pods_Twic_App_Twic_AppUITests {
+  umbrella header "Pods-Twic_App-Twic_AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
